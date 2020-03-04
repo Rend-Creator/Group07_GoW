@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>230</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>CardDeck
+--
+-deck:Card
+-numCards:integer
+--
++CardDeck()
++shuffle()
++deal():Card
++getSize():integer
+-fill()
+-myRandom(low, high):integer
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
